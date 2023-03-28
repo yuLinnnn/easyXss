@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "XssCopy",
+  "version": "1.0",
+  "description": "有事没事插一插说不定就弹了呢?",
+  "icons": {
+    "48": "icon1.png"
+  },
+  "permissions": [
+    "contextMenus",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon1.png"
+    }
+  }
+}
